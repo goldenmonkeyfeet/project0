@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans&display=swap');
+$primary: #387F4F; // Main colour for the site
+$grey: #eee;
+
+body {
+    font-family: 'Noto Sans', sans-serif !important;
+    background: rgba($color: $primary, $alpha: 0.1);
+}
+
+.bg-green {
+    background-color: $primary;
+    color: #ffffff;
+    border-bottom: 2px solid #000;
+
+    .navbar-brand {
+        color: #ffffff;
+        font-size: 1.8em;
+    }
+
+    .nav-link {
+        color: #ffffff;
+        border-bottom: 2px solid transparent;
+        transition: all .3s;
+
+        &:hover {
+            color: #ffffff;
+            border-bottom-color: #ffffff;
+        }
+    }
+}
+
+.btn-primary,
+.badge-primary {
+    background-color: $primary;
+    border-color: $primary;
+}
+
+.underline {
+    display: block;
+    border-bottom: 1px solid $grey;
+    padding-bottom: .5rem;
+    margin-bottom: .5rem;
+
+}
+
+.news {
+    margin: 0;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+
+    &-item {
+        margin-bottom: 2rem;
+    }
+
+    &-title {
+        font-size: 1.5rem;
+    }
+
+    &-date {
+        font-size: .9rem;
+    }
+}
+
+.card {
+    margin: 1rem 0;
+}
+
+.hero {
+    width: 100%;
+    background-image: url("../img/jtbg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 3rem;
+    border-bottom: 2px solid #000;
+
+}
+
+.footer {
+    background: $primary;
+    padding: 15px 0;
+    color: #fff;
+    display: flex;
+    align-items: center;
+
+    p {
+        margin: 0;
+        padding: 0;
+    }
+}

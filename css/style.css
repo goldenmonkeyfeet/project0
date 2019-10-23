@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans&display=swap");
+body {
+  font-family: "Noto Sans", sans-serif !important;
+  background: rgba(56, 127, 79, 0.1);
+}
+
+.bg-green {
+  background-color: #387F4F;
+  color: #ffffff;
+  border-bottom: 2px solid #000;
+}
+.bg-green .navbar-brand {
+  color: #ffffff;
+  font-size: 1.8em;
+}
+.bg-green .nav-link {
+  color: #ffffff;
+  border-bottom: 2px solid transparent;
+  transition: all 0.3s;
+}
+.bg-green .nav-link:hover {
+  color: #ffffff;
+  border-bottom-color: #ffffff;
+}
+
+.btn-primary,
+.badge-primary {
+  background-color: #387F4F;
+  border-color: #387F4F;
+}
+
+.underline {
+  display: block;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.news {
+  margin: 0;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+.news-item {
+  margin-bottom: 2rem;
+}
+.news-title {
+  font-size: 1.5rem;
+}
+.news-date {
+  font-size: 0.9rem;
+}
+
+.card {
+  margin: 1rem 0;
+}
+
+.hero {
+  width: 100%;
+  background-image: url("../img/jtbg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: 3rem;
+  border-bottom: 2px solid #000;
+}
+
+.footer {
+  background: #387F4F;
+  padding: 15px 0;
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
+.footer p {
+  margin: 0;
+  padding: 0;
+}
+
+/*# sourceMappingURL=style.css.map */
